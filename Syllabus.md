@@ -48,7 +48,7 @@ code must compile with no warnings.  Use the `-Wall`,  `-Wextra`,  and `-Werror`
 flags to enforce this.
 
 Your assignments will be  auto-graded on Gradescope,  which is currently running
-GCC 7.5.0 in Ubuntu 18.04.4 containers. Code written on other platforms may need
+GCC 11.2.0 in Ubuntu 22.04 containers.  Code written on other platforms may need
 slight tweaking to compile correctly on Gradescope. In particular, Mac users may
 need to include more header files.
 
