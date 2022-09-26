@@ -80,13 +80,22 @@ Then write some code.
 - Make sure all the tests pass.
 
 
-## Hints
+## Git Hints
 
 - A Git cheatsheet that may prove helpful:\
   https://xavierholt.github.io/cheatsheets/git.html
+- It's always a good idea to run `git status` and see what state your repo is in.
+
+
+## Code Hints
+
+- Whitespace and punctuation are defined as in the [cctype][cctype] header.  Everything
+  that isn't whitespace or punctuation is considered to be a "word" character.
+- Your code should always print exactly one newline, regardless of the input.
 - Your code must compile with no warnings (see the syllabus).
 - Don't check executables or object files into Git.
 
 
 [github]: https://github.com
 [git-setup]: https://help.github.com/en/github/getting-started-with-github/set-up-git
+[cctype]: https://cplusplus.com/reference/cctype/
