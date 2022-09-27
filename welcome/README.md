@@ -14,22 +14,24 @@ and you can pull to get the code.
 Normally you'd  fork the class repo on GitHub,  but GitHub doesn't allow private
 forks of public repos, so this'll be a little more complicated.
 
-First, get a copy of the class repo onto your local machine:
-
-- [Install and configure Git][git-setup] if you don't have it already.
-- Clone the class repo somewhere on your local machine.
-
-Then create an empty repo on [GitHub][github]:
+First, set up your GitHub account and create a new empty repo:
 
 - Create a GitHub account if you don't already have one.
+- Add your SSH key to your GitHub account if it's not there already:
+  - Check to see if you have an [existing SSH key][ssh-exists] on your computer.
+  - If you don't already have an SSH key, [create one][ssh-create].
+  - [Add your SSH key][ssh-github] to your GitHub account.
 - Create a new repo on GitHub.
   - Don't initialize it with any files.
   - Make sure it's private.
 
-Configure your local repo to talk to both GitHub repos:
+Then download the class repo onto your local machine and configure it to talk to
+both GitHub repos:
 
+- [Install and configure Git][git-setup] if you don't have it already.
+- Clone the class repo somewhere on your local machine.
 - The class repo will be at a remote named `origin`; rename it to `upstream`.
-- Add a new remote for your GitHub repo; call it `origin`.
+- Add a new remote for your GitHub repo; call it `origin`.  Use the SSH URL.
 - Push your local `master` branch to your GitHub repo.
 - Your files should now be visible in the GitHub web UI.
 
@@ -89,8 +91,8 @@ Then write some code.
 
 ## Code Hints
 
-- Whitespace and punctuation are defined as in the [cctype][cctype] header.  Everything
-  that isn't whitespace or punctuation is considered to be a "word" character.
+- Whitespace and punctuation are defined as in the [cctype][cctype] header.
+- Everything that isn't whitespace or punctuation is considered to be a "word" character.
 - Your code should always print exactly one newline, regardless of the input.
 - Your code must compile with no warnings (see the syllabus).
 - Don't check executables or object files into Git.
@@ -98,4 +100,7 @@ Then write some code.
 
 [github]: https://github.com
 [git-setup]: https://help.github.com/en/github/getting-started-with-github/set-up-git
+[ssh-exists]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
+[ssh-create]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+[ssh-github]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 [cctype]: https://cplusplus.com/reference/cctype/
