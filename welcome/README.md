@@ -32,13 +32,18 @@ both GitHub repos:
 - Clone the class repo somewhere on your local machine.
 - The class repo will be at a remote named `origin`; rename it to `upstream`.
 - Add a new remote for your GitHub repo; call it `origin`.  Use the SSH URL.
-- Push your local `master` branch to your GitHub repo.
+- Push your local `master` branch to your GitHub repo (and set it as your
+  default push target with the `-u` option):
+  ```sh
+  git push -u origin master
+  ```
 - Your files should now be visible in the GitHub web UI.
 
 Then check that you have everything set up correctly:
 
 - Make sure the output of `git remote -v` makes sense.
 - Save the output of `git remote -v` as `welcome/remotes.txt`.
+- Commit this file and push it to your GitHub repo.
 
 
 ## Git Branches
@@ -50,8 +55,7 @@ Now that your repo is set up, get some practice merging:
   - `jabberwocky`
   - `shi`
 - Merge all of these into your `master` branch.
-  - If you use a GitHub PR, make sure you pull from GitHub afterwards.
-  - If you don't use a PR, make sure you push to GitHub afterwards.
+- Push your changes to your GitHub repo.
 
 
 ## Some Code
@@ -87,6 +91,12 @@ Then write some code.
 - A Git cheatsheet that may prove helpful:\
   https://xavierholt.github.io/cheatsheets/git.html
 - It's always a good idea to run `git status` and see what state your repo is in.
+- Git will open a text editor when you make a merge commit, just in case you
+  want to edit the automatically generated commit message.  This will probably
+  be Vim, so type `:wq` and hit Enter to accept the message and continue.
+- If you use the `-u` (aka `--set-upstream`) option when pushing to your GitHub
+  repo, Git will link your local branch with that remote branch, and a simple
+  `git push` will push that branch to the correct place in the future.
 
 
 ## Code Hints
