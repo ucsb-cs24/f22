@@ -22,6 +22,7 @@ _Assignments are due before midnight Pacific Time._
 | Name               | Due
 |--------------------|-----
 | [Welcome](welcome) | October 2nd
+| [FibVec](fibvec)   | October 9th
 
 
 ## Lectures
@@ -31,4 +32,5 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | Date           | Topics
 |----------------|--------
 | September 26th | Admin stuff; the [syllabus](Syllabus.md)
-| September 28th | Git; C++ compilation; memory management
+| September 28th | Git; C++ compilation
+| October    3rd | Memory layout; the stack and the heap
