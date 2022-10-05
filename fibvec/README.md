@@ -85,3 +85,6 @@ represented as `size_t`s. If a function doesn't modify your vector, mark it as a
   correct parameter types and `const` qualifiers.
 - Include `cstddef` in `FibVec.h` to get the `size_t` type.  Include `stdexcept`
   in `FibVec.cpp` to get the exception types.
+- Note that the `slice()` function will  never fail.  It returns a vector of all
+  the values with indices in a certain range. So if there are no such values, it
+  will simply return an empty vector.
