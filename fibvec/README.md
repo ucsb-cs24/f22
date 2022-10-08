@@ -69,10 +69,6 @@ represented as `size_t`s. If a function doesn't modify your vector, mark it as a
 - The `remove` function takes one argument: an index.  It removes the value
   stored at that index and returns it.  If the index is invalid, it throws a
   `std::out_of_range` exception.
-- The `slice` function takes two arguments: the first is an index and the second
-  is a count.  It returns a new `FibVec`  containing all the values with indices
-  greater than or equal to the index argument,  but less than the sum of the two
-  arguments.  This new vector should have the smallest valid capacity.
 
 
 ## Hints
@@ -85,6 +81,3 @@ represented as `size_t`s. If a function doesn't modify your vector, mark it as a
   correct parameter types and `const` qualifiers.
 - Include `cstddef` in `FibVec.h` to get the `size_t` type.  Include `stdexcept`
   in `FibVec.cpp` to get the exception types.
-- Note that the `slice()` function will  never fail.  It returns a vector of all
-  the values with indices in a certain range. So if there are no such values, it
-  will simply return an empty vector.
