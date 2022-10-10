@@ -21,8 +21,9 @@ _Assignments are due before midnight Pacific Time._
 
 | Name               | Due
 |--------------------|-----
-| [Welcome](welcome) | October 2nd
-| [FibVec](fibvec)   | October 9th
+| [Welcome](welcome) | October  2nd
+| [FibVec](fibvec)   | October  9th
+| [Assort](assort)   | October 16th
 
 
 ## Lectures
@@ -35,4 +36,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | September 28th | Git; C++ compilation
 | October    3rd | Memory layout; the stack and the heap
 | October    5th | Abstract vs concrete data structures; sequences; vectors
-| October   10th | Big-O notation; linked lists; sorted sequences
+| October   10th | Constructors; linked lists; sorted sequences
