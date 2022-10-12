@@ -53,6 +53,7 @@ helper functions you need,  but they can't be member functions of the `List` and
 ## Hints
 
 - Recursion works very nicely on linked lists.
+- The standard comparison operators will give you the correct ordering.
 - Work on the `insert()` and `print()` (forward) functions first. These are used
   in almost all the tests, so you won't pass much until they work.
 - Don't write a `main()` function in `List.cpp`.  If you want to test your code,

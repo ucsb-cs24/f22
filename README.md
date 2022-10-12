@@ -36,4 +36,5 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | September 28th | Git; C++ compilation
 | October    3rd | Memory layout; the stack and the heap
 | October    5th | Abstract vs concrete data structures; sequences; vectors
-| October   10th | Constructors; linked lists; sorted sequences
+| October   10th | The default, copy, and move constructors; sorted sequences
+| October   12th | Linked lists; stacks; queues
