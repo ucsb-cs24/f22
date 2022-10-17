@@ -24,6 +24,7 @@ _Assignments are due before midnight Pacific Time._
 | [Welcome](welcome) | October  2nd
 | [FibVec](fibvec)   | October  9th
 | [Assort](assort)   | October 16th
+| [Setree](setree)   | October 23rd
 
 
 ## Lectures
@@ -38,3 +39,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | October    5th | Abstract vs concrete data structures; sequences; vectors
 | October   10th | The default, copy, and move constructors; sorted sequences
 | October   12th | Linked lists; stacks; queues
+| October   17th | Queues; sorted sequences; binary search
