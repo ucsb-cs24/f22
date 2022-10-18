@@ -72,19 +72,19 @@ Implement the following `Set` member functions in `Set.cpp`.
   output when testing locally; otherwise ignore it.  This function isn't tested.
 - `insert(value)` adds a value to the set. If the value is already present, this
   function does nothing;  otherwise,  it adds the value  in a new leaf node.  It
-  returns the numbers of values that were added.
+  returns the number of values that were added.
 - `lookup(n)` returns the value `value` such that there are exactly `n` values
   smaller than `value` in the set.  If no such element exists, it throws a
   `std::out_of_range` exception.
 - `print()` prints the structure of the set in tree notation, as defined above.
-- `remove(value)` removes a value from the set.
+- `remove(value)` removes a value from the set  and returns the number of values
+  that were removed.
   - If the value to remove is on a node with less than two children,  it removes
     that node.  If the node had a child, the child takes its place.
   - If the value is on a node with two children, it finds the largest value `v`
     that is present in the set but smaller than `value`. It then copies `v` into
     the node containing `value` and deletes the node that originally held `v`.
-  - If the value isn't present in the set, it does nothing.
-  It returns the number of values that were removed.
+  - If the value isn't present in the set, it doesn't remove anything.
 
 
 ## Hints
