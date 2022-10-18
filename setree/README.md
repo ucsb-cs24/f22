@@ -64,7 +64,6 @@ Implement the following `Set` member functions in `Set.cpp`.
 - The copy constructor creates a copy of an existing set.
 - The move constructor takes nodes from a set that's about to be deleted.
 - The destructor deletes all the nodes in the set.
-
 - `clear()` removes all the values from the set. It returns the number of values
   that were removed.
 - `contains(value)` checks if a value is present in the set.
@@ -78,12 +77,14 @@ Implement the following `Set` member functions in `Set.cpp`.
   smaller than `value` in the set.  If no such element exists, it throws a
   `std::out_of_range` exception.
 - `print()` prints the structure of the set in tree notation, as defined above.
-- `remove(value)` removes a value from the set.  If the value to remove  is on a
-  node with less than two children,  it removes that node.  If the value is on a
-  node with two children, it finds the next smallest value in the set, copies it
-  over  the value to remove,  and then removes  the node it copied from.  If the
-  value to remove is not in the set,  it does nothing.  It returns the number of
-  values that were removed.
+- `remove(value)` removes a value from the set.
+  - If the value to remove is on a node with less than two children,  it removes
+    that node.  If the node had a child, the child takes its place.
+  - If the value is on a node with two children, it finds the largest value `v`
+    that is present in the set but smaller than `value`. It then copies `v` into
+    the node containing `value` and deletes the node that originally held `v`.
+  - If the value isn't present in the set, it does nothing.
+  It returns the number of values that were removed.
 
 
 ## Hints
@@ -91,3 +92,4 @@ Implement the following `Set` member functions in `Set.cpp`.
 - Recursion works even better with trees than with linked lists.
 - The standard string comparison operators will give you the correct ordering.
 - Storing a `count` (the size of the subtree) on every node is recommended.
+- The `insert()` and `remove()` functions will always return one or zero.
