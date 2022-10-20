@@ -93,3 +93,7 @@ Implement the following `Set` member functions in `Set.cpp`.
 - The standard string comparison operators will give you the correct ordering.
 - Storing a `count` (the size of the subtree) on every node is recommended.
 - The `insert()` and `remove()` functions will always return one or zero.
+- If you get a segmentation fault and the stack trace shows that it's happening
+  in a `std::string` function, you almost certainly have a dangling pointer to a
+  node you `delete`d.  Check your `remove()` function and make sure you set any
+  pointers to deleted nodes to `nullptr`!
