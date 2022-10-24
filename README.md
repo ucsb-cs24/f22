@@ -25,6 +25,7 @@ _Assignments are due before midnight Pacific Time._
 | [FibVec](fibvec)   | October  9th
 | [Assort](assort)   | October 16th
 | [Setree](setree)   | October 23rd
+| [Polish](polish)   | October 30th
 
 
 ## Lectures
@@ -41,3 +42,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | October   12th | Linked lists; stacks; queues
 | October   17th | Queues; sorted sequences; binary search
 | October   19th | Binary search; binary search trees
+| October   24th | Binary tree rotations; inheritance; virtual functions
