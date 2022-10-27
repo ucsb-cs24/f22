@@ -43,3 +43,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | October   17th | Queues; sorted sequences; binary search
 | October   19th | Binary search; binary search trees
 | October   24th | Binary tree rotations; inheritance; virtual functions
+| October   26th | More inheritance; more virtual functions; RPN parsing
