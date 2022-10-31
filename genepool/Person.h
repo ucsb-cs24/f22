@@ -6,6 +6,11 @@
 #include <set>
 #include <string>
 
+// This is the Person class you need to implement.
+// It has many member functions that perform relationship queries.
+// Add any member variables you need to support this.
+// Implement the member functions in Person.cpp.
+
 class Person {
   // Member Variables
 
