@@ -19,13 +19,14 @@ or just have questions, head over to [Piazza](https://piazza.com/ucsb/fall2022/c
 
 _Assignments are due before midnight Pacific Time._
 
-| Name               | Due
-|--------------------|-----
-| [Welcome](welcome) | October  2nd
-| [FibVec](fibvec)   | October  9th
-| [Assort](assort)   | October 16th
-| [Setree](setree)   | October 23rd
-| [Polish](polish)   | October 30th
+| Name                 | Due
+|----------------------|-----
+| [Welcome](welcome)   | October   2nd
+| [FibVec](fibvec)     | October   9th
+| [Assort](assort)     | October  16th
+| [Setree](setree)     | October  23rd
+| [Polish](polish)     | October  30th
+| [GenePool](genepool) | November  6th
 
 
 ## Lectures
@@ -44,3 +45,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | October   19th | Binary search; binary search trees
 | October   24th | Binary tree rotations; inheritance; virtual functions
 | October   26th | More inheritance; more virtual functions; RPN parsing
+| October   30th | Random notes; sets and maps
