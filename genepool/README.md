@@ -195,10 +195,14 @@ should return the set containing only Eve.
   you need to write fit into the existing code.
 - The `std::getline()` function takes an optional third `delimiter` argument -
   you can use this to parse tab-delimited strings from a `std::istringstream`.
+- You can use `mymap[key] = value` to insert things into a `std::map` (there's
+  an `insert()` function too, but it's a pain to work with).
 - Write stubs for all the relationship functions first, then implement and test
   them one by one.  It's a lot easier to debug one function than twenty.
 - The `mother()` and `father()` functions should return `nullptr` when that
   parent is unknown.
+- You can use `for(Person* person: myset)` (also known as a range-based for
+  loop) to iterate over all the people in a set.
 - Think before you start coding!  There are a lot of relationships you need to
   support, but if you're smart about re-using functions you won't actually have
   to write much code.
