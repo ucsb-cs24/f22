@@ -58,15 +58,16 @@ you add or remove items from your heap,  you'll need to move them around to keep
 this property.
 
 When you push an item onto the heap,  put it in the first available slot.  Then,
-if its parent has a larger value, swap it with its parent. Keep doing this until
-you find a smaller parent,  or the new item becomes the new top.  This is called
-"percolating up."
+if its parent has a higher score, swap it with its parent. Keep doing this until
+you find a parent with a lower score, or the new item becomes the new top.  This
+is called "percolating up."
 
 When you pop an item off the heap, you remove the entry at index zero.  Then you
 need to fill the gap. Take the last entry in the array and put it at index zero;
-then, if it has a smaller child,  swap it with that child.  If both children are
-smaller, swap with the left child.  Keep doing this as long as there are smaller
-children.  This is known as "percolating down."
+then,  if it has any children with lower scores, swap it with the child with the
+lowest score.  If both children have the same lower score, swap it with the left
+child.  Keep doing this  as long as it has  any lower-scoring children.  This is
+known as "percolating down."
 
 
 ### Functions
