@@ -49,3 +49,4 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | October   31st | Random notes; efficient coding; sets and maps
 | November   2nd | More maps; iterators; hash tables
 | November   7th | More hash tables; heaps
+| November   9th | Amortized time; binary heaps; leftist heaps

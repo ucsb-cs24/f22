@@ -109,7 +109,7 @@ Implement the `Dictionary` member functions in `Dictionary.cpp`.
 
 - The `correct()` function  is where the important stuff happens.  It takes in a
   sequence of points; these are the points where the user touched the screen. It
-  then finds all the words  of the correct length,  scores them according to the
+  then finds all the words of the  correct length,  scores them according to the
   scoring algorithm below, and uses a `Heap` with capacity `maxcount` to collect
   the most likely words.  Words with scores lower than `cutoff` are not included
   in the output.
@@ -117,20 +117,41 @@ Implement the `Dictionary` member functions in `Dictionary.cpp`.
 
 ### Scoring
 
-To score a word, compare each character to the corresponding point in the points
-sequence.  Calculate `d`,  the  Euclidean  distance  between  the point  and the
-location of that letter on a QWERTY keyboard.  Then calculate `s`, the score for
-that character: `s = 1 / (10 d² + 1)`.  The score for the word is the mean score
-of all of its letters.  The higher the score, the better the match.
+For every sequence  of touch points,  we can calculate  a similarity score for a
+word of the same length.  To do this, first use the `QWERTY` map  in `Point.cpp`
+to look up the location of the letters in the word on a QWERTY keyboard. You now
+have two sequences of points:  one sequence of touch points, and one sequence of
+key locations.
 
-A score is only defined for words with the same length as the point sequence.
+Then, calculate the Euclidean distance `d` between the first touch point and the
+first key location.  Then convert this to a score `s` using the scoring equation
+`s = 1 / (10 d² + 1)`. Repeat this for the second touch point and the second key
+location, and then the third, and so on.
+
+The score for a word is the average (mean) score of all its letters;  these will
+range from near-zero to one.  The higher the score, the better the match.
+
+For example, to score the word `was` (the user was trying to type `wax`):
+
+| Touch Point  | Letter | Key Location | `d`   | `s`   |
+|--------------|:------:|--------------|------:|------:|
+| (0.98, 0.02) | `w`    | (1.00, 0.00) | 0.028 | 0.992 |
+| (0.28, 0.95) | `a`    | (0.25, 1.00) | 0.058 | 0.967 |
+| (1.71, 2.03) | `s`    | (1.25, 1.00) | 1.128 | 0.073 |
+
+In this case, the word score is (0.992 + 0.967 + 0.073) / 3 = 0.677.
 
 
 ## Hints
 
 - Write your heap first and make sure it passes all the heap tests.
+- Heaps are lazy!  If a parent entry and a child entry have the same score,
+  there's no need to swap them.
 - The `Entry` structure is nested inside the `Heap` class, so from outside the
   `Heap` class you'll need to refer to it as `Heap::Entry`.
+- The `islower()` function in `cctype` is only guaranteed to return zero or
+  non-zero, _not_ a `bool`.  So checking `if(islower(c) == true)` may not do
+  what you expect!  Use `if(islower(c))` or `if(islower(c) != 0)` instead.
 - The interactive program in `main.cpp` expects numbers as its input.  Want to
   type words instead?  Try piping (`|`) the output of the `helper.py` script to
   the input of the interactive program:

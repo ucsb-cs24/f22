@@ -39,16 +39,27 @@ QWERTY = (
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s', '--sigma', type=float, default=0.25)
-    parser.add_argument('input-file', nargs='?')
+    parser.add_argument('-e', '--echo',  action='store_true',      help='print points to stderr as well as stdout')
+    parser.add_argument('-s', '--sigma', type=float, default=0.25, help='standard deviation to use when adding noise')
+    parser.add_argument('filename',      nargs='?',                help='file to read words from (instead of stdin)')
     args = parser.parse_args()
 
-    for line in sys.stdin:
+    if args.filename:
+        file = open(args.filename)
+    else:
+        file = sys.stdin
+
+    for line in file:
         line = line.lower().strip()
+        text = []
         for c in line:
             if 'a' <= c <= 'z':
                 point = QWERTY[ord(c) - 97]
                 x = point[0] + random.gauss(0, args.sigma)
                 y = point[1] + random.gauss(0, args.sigma)
-                print('%.5f %.5f ' % (x, y), end=' ')
-        print('', flush=True)
+                text.append('%.3f %.3f' % (x, y))
+
+        text = '  '.join(text)
+        if args.echo:
+            sys.stderr.write(text + '\n')
+        print(text, flush=True)
