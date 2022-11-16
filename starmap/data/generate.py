@@ -13,7 +13,7 @@ def central(n):
 
 def disk(n, axis=0):
     for _ in range(n):
-        x = random.gauss(0.0, 0.01)
+        x = random.gauss(0.0, 0.03)
         y = random.gauss(0.0, 0.25)
         z = random.gauss(0.0, 0.25)
 
@@ -27,7 +27,10 @@ def shell(n):
         x = random.gauss(0.0, 1.0)
         y = random.gauss(0.0, 1.0)
         z = random.gauss(0.0, 1.0)
-        d = math.sqrt(x*x + y*y + z*z)
+
+        d  = math.sqrt(x*x + y*y + z*z)
+        d += random.gauss(0.0, 0.01)
+
         yield x/d, y/d, z/d
 
 def uniform(n):
@@ -47,7 +50,7 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--seed',   type=int)
     args = parser.parse_args()
 
-    if args.seed:
+    if args.seed is not None:
         random.seed(args.seed)
 
     if args.method == 'central':
