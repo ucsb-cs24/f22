@@ -29,6 +29,7 @@ _Assignments are due before midnight Pacific Time._
 | [GenePool](genepool) | November  6th
 | [Typo](typo)         | November 13th
 | [StarMap](starmap)   | November 20th
+|  No Lab              | Happy Thanksgiving!
 
 
 ## Lectures
@@ -52,4 +53,5 @@ _12:30 to 13:45 Mondays and Wednesdays in IV Theater II_
 | November   7th | More hash tables; heaps
 | November   9th | Amortized time; binary heaps; leftist heaps
 | November  14th | Challenge labs; disjoint sets; graphs
-| November  16th | More graphs; minimal spanning trees
+| November  16th | More graphs; graph traversal; DFS and BFS
+| November  21st | Hacking 101; CPUs and registers; buffer overflows
