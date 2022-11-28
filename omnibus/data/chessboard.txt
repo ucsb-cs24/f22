@@ -1,0 +1,163 @@
+# Sixty-four stations laid out on a chessboard.
+# Trains travel the columns; buses travel the rows.
+
+TRAIN: Line A
+- 11	A1
+- 23	A2
+- 34	A3
+- 41	A4
+- 54	A5
+- 67	A6
+- 79	A7
+- 91	A8
+
+TRAIN: Line B
+- 11	B1
+- 24	B2
+- 34	B3
+- 43	B4
+- 51	B5
+- 62	B6
+- 75	B7
+- 84	B8
+
+TRAIN: Line C
+- 9	C1
+- 18	C2
+- 28	C3
+- 36	C4
+- 48	C5
+- 57	C6
+- 69	C7
+- 77	C8
+
+TRAIN: Line D
+- 7	D1
+- 17	D2
+- 24	D3
+- 32	D4
+- 44	D5
+- 51	D6
+- 61	D7
+- 69	D8
+
+TRAIN: Line E
+- 11	E1
+- 19	E2
+- 32	E3
+- 39	E4
+- 48	E5
+- 61	E6
+- 73	E7
+- 81	E8
+
+TRAIN: Line F
+- 12	F1
+- 22	F2
+- 33	F3
+- 44	F4
+- 57	F5
+- 65	F6
+- 74	F7
+- 83	F8
+
+TRAIN: Line G
+- 8	G1
+- 20	G2
+- 28	G3
+- 40	G4
+- 53	G5
+- 62	G6
+- 75	G7
+- 85	G8
+
+TRAIN: Line H
+- 10	H1
+- 20	H2
+- 27	H3
+- 39	H4
+- 50	H5
+- 60	H6
+- 73	H7
+- 86	H8
+
+BUS: Bus 1
+- 11	A1
+- 22	B1
+- 29	C1
+- 38	D1
+- 49	E1
+- 56	F1
+- 69	G1
+- 82	H1
+
+BUS: Bus 2
+- 7	A2
+- 18	B2
+- 25	C2
+- 32	D2
+- 45	E2
+- 55	F2
+- 66	G2
+- 74	H2
+
+BUS: Bus 3
+- 8	A3
+- 17	B3
+- 24	C3
+- 37	D3
+- 44	E3
+- 52	F3
+- 62	G3
+- 73	H3
+
+BUS: Bus 4
+- 11	A4
+- 20	B4
+- 33	C4
+- 40	D4
+- 53	E4
+- 61	F4
+- 69	G4
+- 82	H4
+
+BUS: Bus 5
+- 13	A5
+- 21	B5
+- 34	C5
+- 44	D5
+- 54	E5
+- 63	F5
+- 72	G5
+- 79	H5
+
+BUS: Bus 6
+- 12	A6
+- 22	B6
+- 32	C6
+- 43	D6
+- 53	E6
+- 61	F6
+- 74	G6
+- 82	H6
+
+BUS: Bus 7
+- 12	A7
+- 23	B7
+- 30	C7
+- 41	D7
+- 51	E7
+- 58	F7
+- 69	G7
+- 76	H7
+
+BUS: Bus 8
+- 7	A8
+- 15	B8
+- 28	C8
+- 39	D8
+- 50	E8
+- 61	F8
+- 69	G8
+- 79	H8
+

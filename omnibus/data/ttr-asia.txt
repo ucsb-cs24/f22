@@ -1,0 +1,209 @@
+# A route map based on the board game Ticket to Ride Asia (Steam version).
+# Colored lines are trains; grey lines are buses; some lines are loops.
+# I've been more liberal about combining lines than in the USA map.
+# Each "segment" takes one hour of travel time.
+# See ttr-asia.jpg for details.
+
+BUS: Trans-Siberian Bus
+- 0	Moscow
+- 180	Perm
+- 360	Omsk
+- 720	Krasnoyarsk
+- 900	Irkutsk
+- 1020	Chita
+
+TRAIN: Trans-Siberian Line
+- 0	Moscow
+- 180	Perm
+- 360	Omsk
+- 720	Krasnoyarsk
+- 900	Irkutsk
+- 1020	Chita
+- 1320	Khabarovsk
+
+TRAIN: Black Sea Line
+- 0	Ankara
+- 120	Tblisi
+- 180	Astrakhan
+- 360	Moscow
+
+TRAIN: Caspian Blue Line
+- 0	Astrakhan
+- 180	Perm
+
+TRAIN: Central Purple Line
+- 0	Astrakhan
+- 300	Samarkand
+
+BUS: Caspian Sea Bus
+- 0	Astrakhan
+- 180	Tehran
+
+TRAIN: Middle Eastern White Line
+- 0	Ankara
+- 180	Baghdad
+
+TRAIN: Baghdad Express Line
+- 0	Baghdad
+- 60	Tehran
+
+TRAIN: Arabian Circle Line
+- 0	Baghdad
+- 180	Mecca
+- 420	Shiraz
+- 540	Tehran
+- 600	Baghdad
+
+TRAIN: West Asian Line
+- 0	Moscow
+- 180	Astrakhan
+- 240	Tblisi
+- 360	Tehran
+- 480	Shiraz
+- 600	Karachi
+- 720	Agra
+- 840	Bombay
+- 1080	Colombo
+
+TRAIN: Central Black Line
+- 0	Tehran
+- 180	Samarkand
+
+TRAIN: Afghan White Line
+- 0	Karachi
+- 240	Samarkand
+
+TRAIN: Central Green Line
+- 0	Samarkand
+- 240	Omsk
+
+TRAIN: Central Blue Line
+- 0	Samarkand
+- 120	Rawalpindi
+
+BUS: West India Bus
+- 0	Karachi
+- 120	Bombay
+
+TRAIN: Pakistani Black Line
+- 0	Karachi
+- 120	Rawalpindi
+
+TRAIN: Trans-India Line
+- 0	Bombay
+- 180	Calcutta
+
+TRAIN: Bengal Line
+- 0	Calcutta
+- 300	Colombo
+- 420	Rangoon
+- 480	Bangkok
+- 660	Singapore
+
+TRAIN: Himalayan Circle Line
+- 0	Rawalpindi
+- 120	Agra
+- 240	Kathmandu
+- 420	Rawalpindi
+
+BUS: East India Bus
+- 0	Agra
+- 120	Calcutta
+- 180	Mandalay
+- 240	Rangoon
+
+TRAIN: Kathmandu Express Line
+- 0	Kathmandu
+- 120	Mandalay
+
+TRAIN: Central Orange Line
+- 0	Omsk
+- 300	Dihua
+
+TRAIN: Northern Black Line
+- 0	Dihua
+- 180	Krasnoyarsk
+
+BUS: Central Asia Bus
+- 0	Samarkand
+- 300	Dihua
+- 660	Peking
+- 780	Xi'an
+
+TRAIN: Mongolian Cutoff Line
+- 0	Irkutsk
+- 120	Ulan Bator
+- 240	Chita
+
+TRAIN: Peking Red Line
+- 0	Peking
+- 180	Ulan Bator
+
+TRAIN: Chinese Yellow Line
+- 0	Dihua
+- 300	Xi'an
+
+TRAIN: West China Circle Line
+- 0	Xi'an
+- 240	Lhasa
+- 360	Mandalay
+- 600	Xi'an
+
+TRAIN: Mandalay Express Line
+- 0	Mandalay
+- 120	Hanoi
+
+TRAIN: Vietnamese Circle Line
+- 0	Hanoi
+- 180	Saigon
+- 240	Bangkok
+- 360	Hanoi
+
+BUS: Singapore Ferry Bus
+- 0	Saigon
+- 120	Singapore
+
+TRAIN: Bangkok Express Line
+- 0	Bangkok
+- 60	Saigon
+
+BUS: Macau Express Bus
+- 0	Hanoi
+- 60	Macau
+
+BUS: Taiwan Circle Bus
+- 0	Shanghai
+- 120	Taipei
+- 240	Macau
+- 420	Shanghai
+
+TRAIN: Chinese White Line
+- 0	Xi'an
+- 180	Macau
+
+TRAIN: Peking Green Line
+- 0	Peking
+- 120	Shanghai
+
+TRAIN: Northeastern Black Line
+- 0	Peking
+- 300	Khabarovsk
+
+BUS: Northeastern Bus
+- 0	Khabarovsk
+- 120	Vladivostok
+- 240	Seoul
+- 420	Peking
+- 540	Xi'an
+
+BUS: Kobe Ferry Bus
+- 0	Seoul
+- 120	Kobe
+
+TRAIN: Kobe Orange Line
+- 0	Kobe
+- 240	Shanghai
+
+TRAIN: Kobe Blue Line
+- 0	Kobe
+- 300	Taipei

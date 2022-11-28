@@ -1,0 +1,222 @@
+# A route map based on the board game Ticket to Ride.
+# Colored lines are trains; grey lines are buses.
+# Each "segment" takes one hour of travel time.
+# See ttr-usa.jpg for details.
+
+BUS: Northwestern Bus
+- 0	Portland
+- 60	Seattle
+- 120	Vancouver
+- 300	Calgary
+
+TRAIN: Pacific Pink Line
+- 0	Los Angeles
+- 180	San Francisco
+- 480	Portland
+
+BUS: Rocky Mountain Bus
+- 0	Seattle
+- 240	Calgary
+- 480	Helena
+
+TRAIN: Rocky Mountain Yellow Line
+- 0 	Seattle
+- 360	Helena
+
+TRAIN: Rocky Mountain Blue Line
+- 0 	Portland
+- 360	Salt Lake City
+
+TRAIN: Rocky Mountain Orange Line
+- 0 	San Francisco
+- 300	Salt Lake City
+- 480	Las Vegas
+
+BUS: Desert Bus
+- 0	Las Vegas
+- 120	Los Angeles
+- 300	Phoenix
+- 480	El Paso
+- 600	Santa Fe
+- 720	Denver
+
+TRAIN: Southwestern Black Line
+- 0	Los Angeles
+- 360	El Paso
+
+TRAIN: Northern White Line
+- 0	Calgary
+- 360	Winnipeg
+
+TRAIN: Northern Blue Line
+- 0	Helena
+- 240	Winnipeg
+
+TRAIN: Great Plains Orange Line
+- 0	Duluth
+- 360	Helena
+
+TRAIN: Rocky Mountain Pink Line
+- 0	Helena
+- 180	Salt Lake City
+
+TRAIN: Great Plains Pink Line
+- 0	Denver
+- 240	Omaha
+
+TRAIN: Great Plains Black Line
+- 0	Denver
+- 240	Kansas City
+
+TRAIN: Central Red Line
+- 0	Salt Lake City
+- 180	Denver
+- 420	Oklahoma City
+
+TRAIN: Rocky Mountain White Line
+- 0	Phoenix
+- 300	Denver
+
+BUS: Southwestern Cutoff Bus
+- 0	Phoenix
+- 180	Santa Fe
+
+TRAIN: Texas Blue Line
+- 0	Santa Fe
+- 180	Oklahoma City
+
+TRAIN: Texas Yellow Line
+- 0	Oklahoma City
+- 300	El Paso
+
+TRAIN: Texas Red Line
+- 0	El Paso
+- 240	Dallas
+
+TRAIN: Texas Green Line
+- 0	El Paso
+- 360	Houston
+
+BUS: Eastern Canada Bus
+- 0	Winnipeg
+- 360	Sault St. Marie
+- 480	Toronto
+- 660	Montreal
+- 780	Boston
+
+TRAIN: Minnesota Black Line
+- 0	Winnipeg
+- 240	Duluth
+
+BUS: Great Plains Bus
+- 0	Sault St. Marie
+- 180	Duluth
+- 300	Omaha
+- 360	Kansas City
+- 480	Oklahoma City
+- 600	Dallas
+- 660	Houston
+- 780	New Orleans
+
+TRAIN: Northern Pink Line
+- 0	Duluth
+- 360	Toronto
+
+TRAIN: Wisconsin Red Line
+- 0	Duluth
+- 180	Chicago
+
+TRAIN: Midwestern Blue Line
+- 0	Omaha
+- 240	Chicago
+
+TRAIN: Kansas Blue Line
+- 0	Kansas City
+- 120	Saint Louis
+
+BUS: Bluegrass Bus
+- 0	Oklahoma City
+- 120	Little Rock
+- 240	Saint Louis
+- 360	Nashville
+- 420	Atlanta
+- 540	Charleston
+
+BUS: Arkansas Cutoff Bus
+- 0	Little Rock
+- 120	Dallas
+
+TRAIN: Louisiana Green Line
+- 0	Little Rock
+- 180	New Orleans
+
+TRAIN: Canada Black Line
+- 0	Sault St. Marie
+- 300	Montreal
+
+TRAIN: Midwestern White Line
+- 0	Toronto
+- 240	Chicago
+- 360	Saint Louis
+
+TRAIN: Midwestern Orange Line
+- 0	Chicago
+- 180	Pittsburgh
+
+TRAIN: Northeastern Green Line
+- 0	Chicago
+- 120	Saint Louis
+- 360	Pittsburgh
+- 480	New York
+
+TRAIN: Kentucky Yellow Line
+- 0	Nashville
+- 240	Pittsburgh
+
+TRAIN: Kentucky Black Line
+- 0	Nashville
+- 180	Raleigh
+
+TRAIN: Southern White Line
+- 0	Little Rock
+- 180	Nashville
+
+TRAIN: Southern Yellow Line
+- 0	New Orleans
+- 240	Atlanta
+
+BUS: Appalachian Bus
+- 0	Atlanta
+- 120	Raleigh
+- 240	Pittsburgh
+- 360	Toronto
+
+TRAIN: Northeastern Blue Line
+- 0	Montreal
+- 180	New York
+
+TRAIN: Atlantic Yellow Line
+- 0	Boston
+- 120	New York
+
+TRAIN: Atlantic Black Line
+- 0	New York
+- 120	Washington
+
+BUS: Atlantic Bus
+- 0	Pittsburgh
+- 120	Washington
+- 240	Raleigh
+- 360	Charleston
+
+TRAIN: Florida Pink Line
+- 0	Charleston
+- 240	Miami
+
+TRAIN: Florida Blue Line
+- 0	Miami
+- 300	Atlanta
+
+TRAIN: Caribbean Red Line
+- 0	New Orleans
+- 360	Miami

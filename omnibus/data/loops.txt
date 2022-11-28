@@ -1,0 +1,26 @@
+# Two loops.  They are not connected.
+
+BUS: Day Bus
+- 1440  Sunday
+- 2880  Monday
+- 4320  Tuesday
+- 5760  Wednesday
+- 7200  Thursday
+- 8640  Friday
+- 10080 Saturday
+- 11520 Sunday
+
+TRAIN: Month Train
+- 1     January
+- 2     February
+- 3     March
+- 4     April
+- 5     May
+- 6     June
+- 7     July
+- 8     August
+- 9     September
+- 10    October
+- 11    November
+- 12    December
+- 13    January

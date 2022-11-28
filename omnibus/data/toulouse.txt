@@ -1,0 +1,98 @@
+# Trains of the (planned) Toulouse Metro and Tramway.
+# All accents have been removed for easy typing (my apologies to the French).
+# See data/toulouse.svg for details.
+
+TRAIN: Line T1
+- 60	Meett
+- 80	Jean Maga
+- 115	Arenes
+- 135	Palais-du-Justice
+
+TRAIN: Line T2
+- 30	Aeroport de Toulouse-Blagnac
+- 45	Jean Maga
+- 80	Arenes
+- 100	Palais-du-Justice
+
+TRAIN: Line A
+- 10	Balma Gramont
+- 13	Argoulets
+- 16	Roseraie
+- 19	Jolimont
+- 23	Marengo SNCF
+- 27	Jean-Juares
+- 29	Capitole
+- 32	Esquirol
+- 38	Saint-Cyprian Republique
+- 41	Patte-d'Oie
+- 43	Arenes
+- 46	Fontaine-Lestang
+- 49	Mermoz
+- 51	Bagatelle
+- 57	Mirail-Universite
+- 59	Reynerie
+- 63	Bellefontaine
+- 67	Basso-Cambo
+
+TRAIN: Line B
+- 0	Borderouge
+- 3	Trois-Cocus
+- 7	La Vache
+- 10	Barriere-de-Paris
+- 14	Minimes Claude-Nougaro
+- 17	Canal-du-Midi
+- 24	Compans-Caffarelli
+- 28	Jeanne-d'Arc
+- 30	Jean-Juares
+- 33	Francois Verdier
+- 36	Carmes
+- 39	Palais-du-Justice
+- 43	Saint-Michel Marcel-Langer
+- 37	Empalot
+- 40	Niel
+- 41	Sainte-Agne SNCF
+- 45	Saouzelong
+- 47	Rangueil
+- 51	Faculte-de-Pharmacie
+- 54	Universite-Paul-Sabatier
+- 60	Ramonville
+
+TRAIN: Line B Extension
+- 0	Ramonville
+- 8	Parc Technologique du Canal
+- 28	INPT
+
+TRAIN: TELEO
+- 0 Universite-Paul-Sabatier
+- 4	CHU Rangueil
+- 15	Oncopole
+
+TRAIN: Line C
+- 100	Colomiers Gare-SNCF
+- 110	Les Ramassiers
+- 120	Saint-Martin-du-Touch
+- 126	Lardenne
+- 135	Le TOEC
+- 143	Arenes
+
+TRAIN: TAE
+- 0	Colomiers Gare-SNCF
+- 11	Airbus St Martin
+- 29	Jean Maga
+- 37	Sept Deniers
+- 40	Bd de Suisse
+- 47	Fondeyre
+- 50	La Vache
+- 56	Toulouse Lautrec
+- 60	Raynal
+- 63	Bonnefoy
+- 67	Marengo SNCF
+- 72	Francois Verdier
+- 78	Jean Rieux
+- 85	Cote Pavee
+- 93	Ormeau
+- 96	Montaudran
+- 102	Airbus D&S
+- 114	INPT
+- 120	Enova
+- 126	La Cadene
