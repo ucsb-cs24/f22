@@ -48,14 +48,14 @@ TRAIN: Line B
 - 36	Carmes
 - 39	Palais-du-Justice
 - 43	Saint-Michel Marcel-Langer
-- 37	Empalot
-- 40	Niel
-- 41	Sainte-Agne SNCF
-- 45	Saouzelong
-- 47	Rangueil
-- 51	Faculte-de-Pharmacie
-- 54	Universite-Paul-Sabatier
-- 60	Ramonville
+- 47	Empalot
+- 50	Niel
+- 51	Sainte-Agne SNCF
+- 55	Saouzelong
+- 57	Rangueil
+- 61	Faculte-de-Pharmacie
+- 64	Universite-Paul-Sabatier
+- 70	Ramonville
 
 TRAIN: Line B Extension
 - 0	Ramonville
