@@ -123,5 +123,12 @@ This is a challenge lab, and the rules are a little different:
 
 - You can use the `std::ws` helper from the `iomanip` header to consume extra
   whitespace from `std::istream`s.
+- Think about what objects you need to represent the map, and what their member
+  variables should be.  For example, station name is the property of a station,
+  while travel time is the property of a connection between stations.
 - Although intermediate stations aren't allowed in the final output, they can be
   very helpful when debugging.
+- If you use Dijkstra's algorithm, always check to see if you've visited any
+  station you pop off your heap - even if you already checked when pushing the
+  new stations on.  If you don't, you can end up visiting the same station many
+  times, and that will slow your program down considerably.
