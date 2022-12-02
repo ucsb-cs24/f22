@@ -126,6 +126,9 @@ This is a challenge lab, and the rules are a little different:
 - Think about what objects you need to represent the map, and what their member
   variables should be.  For example, station name is the property of a station,
   while travel time is the property of a connection between stations.
+- Don't try to pre-compute the fastest path between all pairs of stations!  Some
+  of the larger maps have around 50,000 stations, and even simply storing that
+  would require more memory than the autograder has available.
 - Although intermediate stations aren't allowed in the final output, they can be
   very helpful when debugging.
 - If you use Dijkstra's algorithm, always check to see if you've visited any
