@@ -12,11 +12,9 @@ TRAIN: Zodiac Line
 - 11    Aquarius
 - 12    Pisces
 - 13    Aries
-
 BUS: Equinox Line
 - 3     Pisces
 - 6     Virgo
-
 BUS: Solstice Line
 - 9     Gemini
 - 12    Sagittarius

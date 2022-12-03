@@ -9,7 +9,6 @@ BUS: Day Bus
 - 8640  Friday
 - 10080 Saturday
 - 11520 Sunday
-
 TRAIN: Month Train
 - 1     January
 - 2     February

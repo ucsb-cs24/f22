@@ -10,7 +10,6 @@ TRAIN: Line A
 - 67	A6
 - 79	A7
 - 91	A8
-
 TRAIN: Line B
 - 11	B1
 - 24	B2
@@ -20,7 +19,6 @@ TRAIN: Line B
 - 62	B6
 - 75	B7
 - 84	B8
-
 TRAIN: Line C
 - 9	C1
 - 18	C2
@@ -30,7 +28,6 @@ TRAIN: Line C
 - 57	C6
 - 69	C7
 - 77	C8
-
 TRAIN: Line D
 - 7	D1
 - 17	D2
@@ -40,7 +37,6 @@ TRAIN: Line D
 - 51	D6
 - 61	D7
 - 69	D8
-
 TRAIN: Line E
 - 11	E1
 - 19	E2
@@ -50,7 +46,6 @@ TRAIN: Line E
 - 61	E6
 - 73	E7
 - 81	E8
-
 TRAIN: Line F
 - 12	F1
 - 22	F2
@@ -60,7 +55,6 @@ TRAIN: Line F
 - 65	F6
 - 74	F7
 - 83	F8
-
 TRAIN: Line G
 - 8	G1
 - 20	G2
@@ -70,7 +64,6 @@ TRAIN: Line G
 - 62	G6
 - 75	G7
 - 85	G8
-
 TRAIN: Line H
 - 10	H1
 - 20	H2
@@ -90,7 +83,6 @@ BUS: Bus 1
 - 56	F1
 - 69	G1
 - 82	H1
-
 BUS: Bus 2
 - 7	A2
 - 18	B2
@@ -100,7 +92,6 @@ BUS: Bus 2
 - 55	F2
 - 66	G2
 - 74	H2
-
 BUS: Bus 3
 - 8	A3
 - 17	B3
@@ -110,7 +101,6 @@ BUS: Bus 3
 - 52	F3
 - 62	G3
 - 73	H3
-
 BUS: Bus 4
 - 11	A4
 - 20	B4
@@ -120,7 +110,6 @@ BUS: Bus 4
 - 61	F4
 - 69	G4
 - 82	H4
-
 BUS: Bus 5
 - 13	A5
 - 21	B5
@@ -130,7 +119,6 @@ BUS: Bus 5
 - 63	F5
 - 72	G5
 - 79	H5
-
 BUS: Bus 6
 - 12	A6
 - 22	B6
@@ -140,7 +128,6 @@ BUS: Bus 6
 - 61	F6
 - 74	G6
 - 82	H6
-
 BUS: Bus 7
 - 12	A7
 - 23	B7
@@ -150,7 +137,6 @@ BUS: Bus 7
 - 58	F7
 - 69	G7
 - 76	H7
-
 BUS: Bus 8
 - 7	A8
 - 15	B8
@@ -160,4 +146,3 @@ BUS: Bus 8
 - 61	F8
 - 69	G8
 - 79	H8
-
